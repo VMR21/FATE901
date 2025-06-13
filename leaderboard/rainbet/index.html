@@ -456,7 +456,7 @@ function updateCountdown() {
     }
   }
 
-  const target = new Date(Date.UTC(targetYear, targetMonth, 11, 0, 0, 0));
+  const target = new Date(Date.UTC(targetYear, targetMonth, 1, 0, 0, 0));
   const diff = target - now;
 
   if (diff <= 0) {
